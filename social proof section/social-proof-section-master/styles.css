@@ -1,0 +1,242 @@
+.neel-dad {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.neel-mom {
+  widht: 1000px;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.neel-grandfather {
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+}
+
+.flex-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.neel-1 {
+    width: 500px;
+    height: 500px;
+    padding: 20px 20px 20px 20px;
+}
+
+.neel-2 {
+    padding-top: 80px;
+    padding-left: 80px;
+    display:flex;
+    flex-direction:column;
+}
+
+.neel-ten {
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color:hsl(300, 24%, 96%);
+    width: 28rem;
+    height: 60px;
+    display:flex;
+    flex-direction:row;
+    background-color::hsl(303, 10%, 53%);
+    border-radius: 20px;
+}
+
+.neel-twenty {
+    padding-left: 15px;
+     padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color:hsl(300, 24%, 96%);
+    width: 28rem;
+    height: 60px;
+    display:flex;
+    flex-direction:row;
+    background-color::hsl(303, 10%, 53%);
+     border-radius: 20px;
+    }
+
+.neel-thirty {
+    padding-left: 15px;
+     padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+     background-color:hsl(300, 24%, 96%);
+    width: 28rem;
+    height: 60px;
+    display:flex;
+    flex-direction:row;
+    background-color::hsl(303, 10%, 53%);
+     border-radius: 20px;
+}
+
+.ten-1, .twenty-1 , .thirty-1 {
+  padding-left: 20px;
+  padding-right:  20px;
+  margin-top: 15px;
+}
+
+.ten-2 , .twenty-2, .thirty-2 {
+  margin-top: 15px;
+}
+
+.person-1, .person-2, .person-3 {
+   width: 400px;
+   height: 250px;
+   margin-left: 30px;
+   background-color: hsl(300, 43%, 22%);
+   padding: 20px 20px 20px 20px;
+
+}
+
+.image  {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 15px;
+}
+
+.white-1 {
+ font-family: 'Spartan', sans-serif;
+ font-weight: 500;
+ font-size: 15px;
+  color:hsl(0, 0%, 100%);
+  padding-left: 20px;
+  padding-right: 180px;
+}
+
+.pink-1 {
+ font-family: 'Spartan', sans-serif;
+ font-weight: 500;
+ font-size: 15px;
+ color: hsl(333, 80%, 67%);
+
+}
+
+.pe {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 200%;
+  color: hsl(0, 0%, 100%);
+}
+
+@media only screen and (max-width: 550px) {
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .neel-2 {
+    padding-top: 0px;
+    padding-left:0px;
+  }
+
+    .neel-ten, .neel-twenty , .neel-thirty {
+       padding-top:5px;
+       padding-bottom: 10px;
+       margin-top: 20px;
+       margin-left: auto;
+       margin-right: auto;
+        width: 25rem;
+        height: 70px;
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .ten-1, .twenty-1,  .thirty-1  {
+     padding-right:0px;
+     padding-top: 5px;
+     padding-left: 130px;
+     margin-top:10px;
+     padding-bottom:5px;
+    }
+
+  .ten-2 {
+    padding-left: 40px;
+    margin-top: 0px;
+  }
+
+  .twenty-2 {
+    padding-left: 45px;
+      margin-top: 0px;
+  }
+
+  .thirty-2 {
+    padding-left:35px;
+      margin-top: 0px;
+  }
+
+    para {
+      padding-top: 15px;
+    }
+
+
+     .neel-grandfather {
+       flex-direction: column;
+     }
+
+    .neel-dad {
+      height: 850px;
+      flex-direction: column;
+
+    }
+
+    .neel-mom {
+      flex-direction: column;
+    }
+
+    .person-1, .person-2, .person-3 {
+      margin-bottom: 20px;
+    }
+}
+
+
+
+h1 {
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+   font-family: 'Spartan', sans-serif;
+   font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 4rem;
+}
+
+p {font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    font-size:  1.2rem;
+    color:hsl(303, 10%, 53%);
+    padding-right:40px;
+    line-height:150%;
+}
+
+.para {
+  font-family: 'Spartan', sans-serif;
+      font-weight: 500;
+      margin-top: 0px;
+      font-size:  1rem;
+      color:hsl(303, 10%, 53%);
+
+}
